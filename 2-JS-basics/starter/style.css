@@ -2,7 +2,8 @@ section {
     height: 100vh;
 }
 
-#lecture-8 {
+#lecture-8,
+#lecture-10 {
     background-color: #f7f7f7;
 }
 

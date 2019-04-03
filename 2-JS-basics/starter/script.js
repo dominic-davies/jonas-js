@@ -1,13 +1,18 @@
+// Lecture 2.10 Basic operators
+
+
+
+
 // Lecture 2.9 Variable Mutation and Type coercion
 
-var firstName = "Delboy";
-var age = 42;
+// var firstName = "Delboy";
+// var age = 42;
 
 // console.log(firstName + ' ' + age);
 
-var job, isMarried;
-job = "teacher";
-isMarried = false;
+// var job, isMarried;
+// job = "teacher";
+// isMarried = false;
 
 // console.log(firstName + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried);
 
