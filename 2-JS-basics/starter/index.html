@@ -4,28 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Section 2: JavaScript Language Basics</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Section 2: JavaScript Language Basics</h1>
-    <h2>Lecture 2.8 - Variables and data types</h2>
-    <p>Primitive data types (non object)</p>
-    <ol>
-        <li>Number: in js, always floating point, always have decimals even if you don't see them (or look like
-            integers).</li>
-        <li>String: text, a sequence of characters</li>
-        <li>Boolean: Logical data type, can only be true or false.</li>
-        <li>Undefined: gets automatically assigned to a var that has no value yet</li>
-        <li>Null: 'non existent'</li>
-    </ol>
-    <h3>JS has dynamic typing.</h3>
-    <p>Data types are automatically assigned to variables. you don't have to say what type it is js knows that "john" is
-        a string and 28 is a number.</p>
-    <h3>Variable names</h3>
-    <p>Give variables meaningful names. Use camelCase notation. Can't start a var with a number.</p>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">The Complete JavaScript Course 2019: Build Real Projects!</p>
+            <hr class="my-4">
+            <p>Master JavaScript with the most complete course on the market! Projects, challenges, quizzes, ES6+, OOP,
+                AJAX, Webpack.</p>
+            <a class="btn btn-outline-dark btn-lg" href="#" role="button">Learn more</a>
+        </div>
+        <h1>Section 2: JavaScript Language Basics</h1>
+        <section id="lecture-9">
+            <h2>Lecture 2.9 - Variable Mutation and Type Coercion</h2>
+            <code>
+                var firstName = "Delboy"; <br>
+                var age = 42; <br>
 
-    <h2>Lecture 2.9 Variable Mutation and Type coercion</h2>
+                console.log(firstName + ' ' + age);
+            </code>
+            <p>We get Delboy 42</p>
+            <p>JS automatically converts from one type to another. Here it converted a number to a string to join with
+                the
+                other
+                2 strings. This is Type Coercion, joining strings is a quick example.</p>
+            <h3>Variable Mutation</h3>
+            <p>job = 'driver'; is an example of variable Mutation. You change the value of a already asigned variable.
+                You
+                don't
+                need the var keyword.</p>
+        </section>
 
+
+        <section id="lecture-8">
+            <h2>Lecture 2.8 - Variables and data types</h2>
+            <p>Primitive data types (non object)</p>
+            <ol>
+                <li>Number: in js, always floating point, always have decimals even if you don't see them (or look like
+                    integers).</li>
+                <li>String: text, a sequence of characters</li>
+                <li>Boolean: Logical data type, can only be true or false.</li>
+                <li>Undefined: gets automatically assigned to a var that has no value yet</li>
+                <li>Null: 'non existent'</li>
+            </ol>
+            <h3>JS has dynamic typing.</h3>
+            <p>Data types are automatically assigned to variables. you don't have to say what type it is js knows that
+                "john" is
+                a string and 28 is a number.</p>
+            <h3>Variable names</h3>
+            <p>Give variables meaningful names. Use camelCase notation. Can't start a var with a number.</p>
+        </section>
+    </div>
 
     <!-- inline js -->
     <!-- <script>
